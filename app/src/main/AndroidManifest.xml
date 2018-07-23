@@ -18,7 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".splash.WelcomeActivity"></activity>
+        <activity android:name=".splash.WelcomeActivity" />
+        <activity android:name=".siginin.SigninActivity" />
+        <activity android:name=".siginup.SignupActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="middle_logo">100dp</dimen>
+    <dimen name="medium_text">20sp</dimen>
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="middle_padding">0dp</dimen>
+    <dimen name="large_padding">30dp</dimen>
+    <dimen name="text_padding">50dp</dimen>
+</resources>

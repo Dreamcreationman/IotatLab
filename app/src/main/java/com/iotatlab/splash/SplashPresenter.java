@@ -38,7 +38,7 @@ public class SplashPresenter implements SplashContract.Presenter {
             public void run() {
                 view.doAnimationOut(animationOut);
             }
-        }, 2000);
+        }, 1500);
     }
 
     @Override

@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">IotatLab</string>
+    <string name="app_name">物创</string>
     <string name="logo">Logo</string>
     <string name="welcome">Welcome</string>
+    <string name="name_chinese">物联网应用技术创新实践班</string>
+    <string name="name_english">Internet of Things Application Technology</string>
 </resources>
