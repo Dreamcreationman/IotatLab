@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".splash.WelcomeActivity" />
         <activity android:name=".siginin.SigninActivity" />
-        <activity android:name=".siginup.SignupActivity"></activity>
+        <activity android:name=".siginup.SignupActivity" />
+        <activity android:name=".sigin.SignActivity"></activity>
     </application>
 
 </manifest>

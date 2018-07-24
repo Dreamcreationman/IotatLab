@@ -6,6 +6,7 @@ import android.view.KeyEvent;
 import android.widget.Toast;
 
 import com.iotatlab.R;
+import com.iotatlab.utils.ActivityManagement;
 
 public class SignupActivity extends AppCompatActivity {
 
@@ -13,7 +14,7 @@ public class SignupActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-
+        ActivityManagement.addActivity(this);
     }
 
 }

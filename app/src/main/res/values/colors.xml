@@ -7,4 +7,5 @@
     <color name="mainBlue">#1DA1F2</color>
     <color name="mainWhite">#FFFFFF</color>
     <color name="mainText">#3d3c3c</color>
+    <color name="mainHint">#918d8d</color>
 </resources>

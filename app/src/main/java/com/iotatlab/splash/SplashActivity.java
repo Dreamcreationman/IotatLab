@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.iotatlab.R;
 import com.iotatlab.siginin.SigninActivity;
+import com.iotatlab.utils.ActivityManagement;
 import com.iotatlab.utils.ViewUtils;
 
 import static com.iotatlab.utils.Preconditions.checkNotNull;
@@ -32,6 +33,7 @@ public class SplashActivity extends AppCompatActivity implements SplashContract.
         super.onCreate(savedInstanceState);
         ViewUtils.setImmersive(this);
         setContentView(R.layout.activity_splash);
+        ActivityManagement.addActivity(this);
 
         init();
 
@@ -68,7 +70,6 @@ public class SplashActivity extends AppCompatActivity implements SplashContract.
         }else {
             startActivity(new Intent(SplashActivity.this,WelcomeActivity.class));
         }
-        finish();
     }
 
     @Override

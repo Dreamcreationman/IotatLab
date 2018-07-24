@@ -6,6 +6,7 @@ import android.view.KeyEvent;
 import android.widget.Toast;
 
 import com.iotatlab.R;
+import com.iotatlab.utils.ActivityManagement;
 
 public class SigninActivity extends AppCompatActivity {
 
@@ -13,6 +14,7 @@ public class SigninActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signin);
+        ActivityManagement.addActivity(this);
     }
 
 }
